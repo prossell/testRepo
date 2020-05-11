@@ -1,24 +1,8 @@
 <template lang="pug">
   .media_box
-    SectionTitle(:title="'Media'")
-    //- .message {{media_message}}
-    //- .media_container
-    //-   .media_wrapper(v-for="(article,media_key) in mediaList" :key="`media_${media_key}`" v-if="article.pub === 'true'")
-    //-     a.media(v-if="article.link" :href="article.link" target='_blank')
-    //-       img.media_pic(v-if="article.image" :src="article.image")
-    //-         .media_year {{ article.year }}
-    //-         .media_times {{ article.times }}
-    //-       .media_div
-    //-          .media_div_title {{ article.title }}
-    //-       .media_div
-    //-         .media_div_content {{ article.content }}
-    
-            //- .media_div_auther {{ article.auther }}
-          //- .media_div
-          //-   .media_div_from {{ article.kind + '.com'}}
-          
+    SectionTitle(:title="'Media'")          
     .SlideMedia
-      Carousel(:navigation-enabled="true" navigation-prev-label="〈" navigation-next-label="〉" :speed="1000" v-bind:per-page-custom="[[10,1],[640,1],[780,2],[1250,3]]")
+      Carousel(:navigation-enabled="true" navigation-prev-label="〈" navigation-next-label="〉" :speed="1000" v-bind:per-page-custom="[[10,1],[640,1],[780,2],[1250,3]]" pagination-color='#ffffff' pagination-active-color=$black)
         Slide.VueCarousel-slider(v-for="(article,media_key) in mediaList" :key="`media_${media_key}`" v-if="article.pub === 'true'")
           a.media(v-if="article.link" :href="article.link" target='_blank')
             img.media_pic(v-if="article.image" :src="article.image")
@@ -39,19 +23,9 @@ export default {
     Carousel,
     Slide
   },
-  head() {
-    return {
-      title: 'Judges',
-      titleTemplate: '%s - ONLINE INTERN CONTEST 2020 #2'
-    }
-  },
-
   data() {
     return {
-      mediaList: null,
-      publish: true,
-      media_message: '＊＊＊＊＊＊！',
-      message: 'オンコン（略称）の審査員およびメンターの方々をご紹介します！'
+      mediaList: null
     }
   },
   created() {
@@ -64,8 +38,15 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+button:focus {
+  outline: none;
+}
+.VueCarousel-navigation-button:focus {
+  outline: none;
+}
 .VueCarousel-slide {
   width: 70%;
+  margin-top: 10px;
 }
 
 .SlideMedia {
@@ -77,24 +58,9 @@ export default {
   width: 100%;
   height: auto;
 }
-.message {
-  margin: 24px 0 48px;
-  width: 100%;
-  text-align: center;
-  font-size: 2rem;
-}
+
 .media_pic {
   width: 100%;
-}
-
-.media_container {
-  width: 80%;
-  margin: auto;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .media {
@@ -107,6 +73,8 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
+  margin-bottom: 0;
+  // padding-bottom: 10px;
   background: $white;
   transition: 0.3s $ease-out-1;
   transform: translateY(0);
@@ -168,73 +136,6 @@ export default {
       color: gray;
       text-align: right;
       width: 100%;
-    }
-  }
-}
-
-@media screen and (max-width: $md) {
-  .media_wrapper {
-    background-color: white;
-    text-align: center;
-    margin: 48px 0 60px;
-    width: 36vw;
-    height: auto;
-    position: relative;
-
-    &::before {
-      content: '';
-      display: block;
-      background: $white;
-    }
-    &:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 4px 16px rgba($black, 0.1);
-    }
-  }
-}
-@media screen and (max-width: $tb) {
-  .media {
-    width: 90%;
-    height: 100%;
-    text-decoration: none;
-    color: black;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background: $white;
-    transition: 0.3s $ease-out-1;
-    transform: translateY(0);
-    // padding: 0 0 32px 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
-    &_pic {
-      flex-shrink: 0;
-      width: 100%;
-      // height: 23vw;
-    }
-  }
-}
-@media screen and (max-width: $sm) {
-  .media_wrapper {
-    background-color: white;
-    text-align: center;
-    margin: 20px 0 20px;
-    width: 75vw;
-    margin: 10px auto;
-    height: 75vw;
-    position: relative;
-
-    &::before {
-      content: '';
-      display: block;
-      background: $white;
-    }
-    &:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 4px 16px rgba($black, 0.1);
     }
   }
 }
