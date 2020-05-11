@@ -1,0 +1,41 @@
+
+//colors
+  $theme-blue: #89c9c9;
+  $grad-blue: #9ed7b0;
+  $grad-green: #c3f184;
+  $theme-green: #d8ff6c;
+  $theme-gradient: linear-gradient(60deg, $theme-green 0%, $theme-blue 100%);
+  $link: #527e7f;
+
+  $white: #fff;
+  $light-gray: #f3f3f3;
+  $gray: #8e8e8e;
+  $dim-gray: #555555;
+  $black: #0e0f0d;
+
+  //text color
+  $black-txt: $black;
+  $gray-txt: $dim-gray;
+  $white-txt: $white;
+  $link-txt: $link;
+  $notes-txt: $gray;
+
+  //sns color
+  $twitter: #1da1f2;
+  $facebook: #4267b2;
+
+//fonts
+  $noto-sans: 'Noto Sans JP', 'Noto Sans CJK JP', sans-serif;
+  $PT-sans: 'PT Sans', sans-serif;
+  //weight
+  $weight-thin: 100;
+  $weight-bold: 700;
+
+//cubic-bezier
+  $ease-out-1: cubic-bezier(.13,.77,.46,1);
+  $ease-in-out-1: cubic-bezier(.75,0,.25,1);
+
+//screen size
+  $sm: 640px;
+  $tb: 1025px; //html側は1025px
+  $md: 1250px;

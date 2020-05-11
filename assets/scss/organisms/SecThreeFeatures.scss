@@ -1,0 +1,32 @@
+
+.feature_content{
+  @include flex($wrap: wrap, $justifyContent: center, $alignItems: flex-start);
+}
+
+.feature_topic {
+  margin: 0 2%;
+}
+
+@media screen and (max-width: 1024px) {
+  .SectionTitle{
+    margin-bottom: 0px;
+  }
+  .feature_topic {
+    margin-top: 60px;
+  }
+  .feature_content_wrapper {
+    text-align: center;
+  }
+  .feature_content{
+    text-align: left;
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .feature_topic {
+    margin-top: 40px;
+  }
+}

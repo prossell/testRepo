@@ -1,0 +1,188 @@
+{
+  "index": {
+    "catch_copy": "Overcome CORONA!",
+    "application_period": "Application period",
+    "sns_share": "Share!",
+    "footer": "Youth proposal project grants"
+  },
+  "concept": {
+    "title_1": "Business-contest",
+    "": "everything is online",
+    "title_2": "Internship",
+    "discription_1": "You will form a group with other participants, and tackle a subject theme offered by a company! ",
+    "discription_2": "",
+    "discription_3": "Present your solution given our support and feedback.",
+    "discription_4": ""
+  },
+  "feature": {
+    "title": " features",
+    "features": [
+      {
+        "title": "intern from your home",
+        "discription": [
+          "You can participate regardless",
+          "wherever you are. Everything including",
+          "final presentation is done online"
+        ]
+      },
+      {
+        "title": "connection to companies",
+        "discription": [
+          "Its good opportunity to build relationship",
+          "with companies. Be active!",
+          "There is even a chance of head-hunting"
+        ]
+      },
+      {
+        "title": "evaluation of the process",
+        "discription": [
+          "Not only the final presentation,",
+          "but its process to reach",
+          "the goal will is evaluated"
+        ]
+      }
+    ]
+  },
+  "schedule": {
+    "application": "application period",
+    "kickoff": "form a group, and receive the subject",
+    "final": "present online",
+    "schedules": [
+      { "data": "Step 1", "content": "ice-breaking, analyze the subject" },
+      { "data": "Step 2", "content": "coming up with idea" },
+      { "data": "Step 3", "content": "proposal of the solution" }
+    ]
+  },
+  "information": {
+    "theme": {
+      "whom": "for whom",
+      "what_evaluate": "evaluation",
+      "who_evaluate": "evaluator",
+      "powered_by": "powered by"
+    },
+    "content": {
+      "whom": "University, Graduate school, High school, Vocational school and College of technology students",
+      "what_evaluate_1": "Reality, social commitment, growth of the market,",
+      "what_evaluate_2": "originality, and schedule progress",
+      "caution": "task progress based on schedule is also evaluated",
+      "who_evaluate": "TBA",
+      "": "Click Here For More Info",
+
+      "powered_by": "Organizer：",
+      "coorporate": "Coorporate：",
+      "coorporater": "Nagaoka Working Organization for the Youth"
+    }
+  },
+  "vision": {
+    "idea": "Offer business-contest against corona for students",
+    "post": "management leader",
+    "name": "Kazuki Yokoyama",
+    "comment_1": "Now, corona virus (COVID-19) has huge impact on the economics. You may be wondering what to do during social distancing. However, now it is opportunity to consider 'after corona' and 'with corona' world.",
+    "comment_2": "'Online Intern Contest 2020-3' offer you opportunity to tackle corona problem with other students all over the world online.",
+    "comment_3": "We will especially welcome '21 or 22' who are worrying about job hunting and internship under this situation.",
+    "comment_4": "We, also encourage high school students to join us!",
+    "comment_5": "Participants from previous time as well as newcomers, let's make it possible!"
+  },
+  "award": {
+    "property": "ceremony",
+    "content_1": "on video chatting service ",
+    "content_2": ""
+  },
+  "share": {
+    "title_1": "share ",
+    "title_2": " via SNS",
+    "title_black": "#oncon",
+    "check": "follow to check latest information"
+  },
+  "sponsors": {
+    "wait": "We will announce detail information soon"
+  },
+  "disclaimer": {
+    "please": "Please check before applying.",
+    "agree": "Apply after agreeing to the above.",
+    "toform": "To application form"
+  },
+  "about": {
+    "message": "Prossell is an ONCON(online contest) management team to make your job hunting successful.",
+    "members": [
+      {
+        "icon": "yokoyama_kazuki",
+        "name": "Kazuki Yokoyama(kiki)",
+        "role": "CEO",
+        "link": "https://twitter.com/Kiki_Prossell"
+      },
+      {
+        "icon": "kantaro",
+        "name": "Kantaro Yoshimura",
+        "role": "",
+        "link": "https://www.facebook.com/yoka0930"
+      },
+      {
+        "icon": "hiroyuki_saito",
+        "name": "Hiroyuki Saito",
+        "role": "",
+        "link": "https://www.facebook.com/bigbosshiro"
+      },
+      {
+        "icon": "chige",
+        "name": "Keita Uchida(Chige)",
+        "role": "",
+        "link": "https://twitter.com/chige12_"
+      },
+      {
+        "icon": "miyaji",
+        "name": "Atsushi Miyaji",
+        "role": "",
+        "link": "https://www.facebook.com/atsushi.miyaji.0226"
+      },
+      {
+        "icon": "otani",
+        "name": "Shunsuke Otani",
+        "role": "",
+        "link": "https://www.facebook.com/moyashi12f"
+      }
+    ]
+  },
+  "news": {
+    "message": "Latest information and updates about the ONCON(online contest).",
+    "news_list": [
+      {
+        "pub": "true",
+        "date": "2020/04/08",
+        "title": "ONCON Official Website Was Launched."
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/08",
+        "title": "Report Published in Kosen Magazine",
+        "detaile": "Report from a previous participant (Japanese Only)",
+        "link": "https://kosen-magazine.com/online-intern-contest-2020-report/"
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/15",
+        "title": "Introduction of Suportors",
+        "detaile": "DeNA Co., Ltd."
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/16",
+        "title": "Introduction of Sponsor",
+        "detaile": "Excite Japan Co., Ltd."
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/16",
+        "title": "New Suportors",
+        "detaile": "Kosen Career Co., Ltd., Academic Gangstar Co., Ltd."
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/16",
+        "title": "Add Judges page",
+        "detaile": "Introduction of the judges and mentors (Japanese Only)",
+        "link": "/judges"
+      }
+    ]
+  }
+}

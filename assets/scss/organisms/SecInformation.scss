@@ -1,0 +1,143 @@
+$themes: participate, view, judge, management;
+$shift: 34.4px;
+
+
+.information_lists{
+  margin: 30px auto;
+  margin-left: 164px;
+}
+
+.information_list{
+  @include flex($alignItems: flex-start, $justifyContent: flex-start);
+  margin: 48px 0;
+
+  &_theme {
+    font-weight: $weight-thin;
+    font-size: 3rem;
+    width: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-indent: -1.2rem;
+  }
+
+  &_content {
+    padding-top: 0.8rem;
+    font-size: 1.8rem;
+    position: relative;
+    padding-left:0.4em;
+    text-indent:-0.4em;
+
+    br {
+      display: none;
+    }
+
+    &--text {
+      display: inline;
+    }
+    &--caution {
+      font-size: 1.4rem;
+      padding-left:0.8em;
+      text-indent:-0.4em;
+    }
+    &--coorporate {
+      margin-left: 1.8rem;
+    }
+  }
+}
+
+@each $name in $themes {
+  $i: index($themes, $name);
+  .#{$name} {
+    padding-left: ($i - 1) * $shift;
+  }
+}
+
+
+@media screen and (max-width: $md) {
+  .information_lists{
+    margin-left: 8%;
+  }
+
+  .information_list{
+    &_theme {
+      font-size: 2.8rem;
+      text-indent: -1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: $tb) {
+  .information_lists{
+    margin-left: 0;
+  }
+  .information_list{
+    display: block;
+    &_theme {
+      font-size: 2.6rem;
+      width: 240px;
+    }
+    &_content {
+      padding-left: 1em;
+    }
+    &_content{
+      &--coorporate {
+        display: block;
+        margin-top: 4px;
+        margin-left: 0;
+        padding-left:0.4em;
+        text-indent:-0.4em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $sm) {
+  $shift: 0px;
+
+  @each $name in $themes {
+    $i: index($themes, $name);
+    .#{$name} {
+      padding-left: ($i - 1) * $shift;
+    }
+  }
+
+  .information_lists{
+    margin-top: 0px;
+    margin-left: 4%;
+  }
+  .information_list{
+    margin: 40px 0;
+    flex-direction: column;
+    align-items: start;
+
+    &_content{
+      width: auto;
+      margin: 8px 0 8px 16px;
+      display: inline-block;
+      padding-left: 0;
+      text-indent: 0;
+      sup {
+        top: -0.5em;
+      }
+
+      &--text {
+        display: block;
+        margin-bottom: 4px;
+      }
+      &--caution {
+        padding-left: 0;
+        text-indent: 0;
+      }
+      &--coorporate {
+        padding-left: 0;
+        text-indent: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .information_lists{
+    margin-left: 0;
+  }
+}

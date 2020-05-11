@@ -1,0 +1,204 @@
+{
+  "index": {
+    "catch_copy": "コロナに負けるな!",
+    "application_period": "応募期間",
+    "sns_share": "SNSでシェア！",
+    "footer": "若者提案プロジェクト補助金活用事業"
+  },
+  "concept": {
+    "title_1": "ビジネスコンテスト",
+    "": "完全オンラインで行う",
+    "title_2": "インターンシップ",
+    "discription_1": "参加学生でチームを結成し、",
+    "discription_2": "企業からの課題テーマに取り組め！",
+    "discription_3": "サポートやフィードバックを得ながら、",
+    "discription_4": "新規事業を提案しよう。"
+  },
+  "feature": {
+    "title": "つの特徴",
+    "features": [
+      {
+        "title": "自宅でインターン",
+        "discription": [
+          "地方学生でも大丈夫。",
+          "全てのプロセスがオンラインで完結！",
+          "最終発表もビデオ通話にて。"
+        ]
+      },
+      {
+        "title": "企業とのつながり",
+        "discription": [
+          "インターンシップのように　",
+          "企業の方と繋がるチャンス。",
+          "積極的に取り組もう!"
+        ]
+      },
+      {
+        "title": "プロセス評価",
+        "discription": [
+          "結果だけが全てじゃない。",
+          "活動プロセスを企業側へ共有して、",
+          "総合的な評価をもらおう!"
+        ]
+      }
+    ]
+  },
+  "schedule": {
+    "application": "参加応募期間",
+    "kickoff": "チームとテーマの発表",
+    "final": "ビデオ通話で最終発表",
+    "schedules": [
+      { "data": "Step 1", "content": "アイスブレーク、本質的課題の確認" },
+      { "data": "Step 2", "content": "アイデア出し" },
+      { "data": "Step 3", "content": "解決案の提示" }
+    ]
+  },
+  "information": {
+    "theme": {
+      "whom": "参加対象者",
+      "what_evaluate": "審査の視点",
+      "who_evaluate": "審査員",
+      "powered_by": "運営"
+    },
+    "content": {
+      "whom": "大学生、大学院生、高校生、専門学生、高専生、専攻科生",
+      "what_evaluate_1": "実現性、社会貢献度、市場の成長性、",
+      "what_evaluate_2": "独創性、スケジュール達成度",
+      "caution": "スケジュールに沿ったタスクの達成率も評価に加味されます。",
+      "who_evaluate": "詳細はこちら",
+      "powered_by": "主催：",
+      "coorporate": "協力：",
+      "coorporater": "ながおか・若者・しごと機構"
+    }
+  },
+  "vision": {
+    "idea": "休暇中の学生にコロナに負けないビジコンを",
+    "post": "運営代表",
+    "name": "横山 和輝",
+    "comment_1": "今、世界では新型コロナウイルス感染症 (COVID-19) が流行し、経済に大きな影響が出ています。外出自粛の中、学校もバイトも休みでなにをやればいいか分からないって思っている学生も多いのではないでしょうか。コロナが流行している今の社会だからこそ「アフターコロナ」「ウィズコロナ」について考えませんか？",
+    "comment_2": "'Online Intern Contest 2020-4' では、完全オンラインで全国の学生と協力してコロナ対策に取り組めます！",
+    "comment_3": "就活イベントの多くが中止になって困っている21卒の学生さんや夏季インターンが開催されるか不安な22卒の学生さん大歓迎です！",
+    "comment_4": "また第四回となる今回は高校生の参加もOKです！",
+    "comment_5": "前回のオンコンに参加していただいた学生も、今まで学外活動に取り組んだことのない学生も、社会のピンチを自分のチャンスに変えましょう！"
+  },
+  "themes": [
+    {
+      "": "高専キャリア",
+      "kind": "テーマA",
+      "title": "未定（近日公開）"
+    }
+  ],
+  "award": {
+    "property": "表彰式",
+    "content_1": "ビデオチャットサービス",
+    "content_2": "にて開催"
+  },
+  "share": {
+    "title_1": "",
+    "title_2": "をSNSでシェア！",
+    "title_black": "#オンコン",
+    "check": "フォローして最新情報をチェック！"
+  },
+  "sponsors": {
+    "wait": "情報公開までもうしばらくお待ちください。"
+  },
+  "disclaimer": {
+    "please": "応募の前にご確認ください。",
+    "agree": "上記内容に同意の上、応募します。",
+    "toform": "応募フォームへ"
+  },
+  "about": {
+    "message": "  Prossellとは、就活をより良いものにするために集まった学生によるオンコン(略称)運営チームです。",
+    "members": [
+      {
+        "icon": "yokoyama_kazuki",
+        "name": "横山 和輝(kiki)",
+        "role": "運営代表",
+        "role_en": "CEO",
+        "link": "https://twitter.com/Kiki_Prossell"
+      },
+      {
+        "icon": "kantaro",
+        "name": "吉村 勘太郎",
+        "role": ".",
+        "link": "https://www.facebook.com/yoka0930"
+      },
+      {
+        "icon": "hiroyuki_saito",
+        "name": "齋藤 祐功",
+        "role": "",
+        "link": "https://www.facebook.com/bigbosshiro"
+      },
+      {
+        "icon": "chige",
+        "name": "内田 啓太(ちげ)",
+        "role": "",
+        "link": "https://twitter.com/chige12_"
+      },
+      {
+        "icon": "miyaji",
+        "name": "宮地 篤士",
+        "name_en": "Atsushi Miyaji",
+        "role": "",
+        "role_en": "",
+        "link": "https://www.facebook.com/atsushi.miyaji.0226"
+      },
+      {
+        "icon": "otani",
+        "name": "大谷 俊介",
+        "name_en": "Shunsuke Otani",
+        "role": "",
+        "role_en": "",
+        "link": "https://www.facebook.com/moyashi12f"
+      }
+    ]
+  },
+  "news": {
+    "message": "  オンコン(略称)に関する最新情報や更新情報をお届けします。",
+    "news_list": [
+      {
+        "pub": "true",
+        "date": "2020/04/08",
+        "title": "オンコン公式Webサイトを公開しました。"
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/08",
+        "title": "高専マガジンに掲載されました！",
+        "detaile": "前回の参加レポートをまとめております。",
+        "link": "https://kosen-magazine.com/online-intern-contest-2020-report/"
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/15",
+        "title": "サポーター企業の公開",
+        "detaile": "(株)DeNA様"
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/16",
+        "title": "スポンサー企業の公開",
+        "detaile": "エキサイト(株)様"
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/16",
+        "title": "サポーター企業の追加",
+        "detaile": "(株)高専キャリア教育研究所様、(株)アカデミックギャングスター様"
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/16",
+        "title": "審査員(Judges)ページの公開",
+        "detaile": "審査員およびメンターの方々の紹介をしております。",
+        "link": "/judges"
+      },
+      {
+        "pub": "true",
+        "date": "2020/04/17",
+        "title": "🌸🌸🌸 オンコンがスタートしました！🌸🌸🌸",
+        "detaile": "学生の応募を締め切りました。応募者数は前回の倍近くとなる107名！これから1週間頑張りましょう！"
+      }
+    ]
+  }
+}

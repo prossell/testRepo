@@ -1,0 +1,211 @@
+.top_visual_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  @include flex($alignItems: flex-end);
+}
+.container {
+  z-index: auto;
+}
+.logo {
+  margin-top: 48px;
+  width: 43%;
+  padding-bottom: 4px;
+}
+.right_contents_wrapper {
+  text-align: right;
+}
+
+.catch_copy {
+  font-weight: $weight-thin;
+  font-size: 5.2rem;
+  margin-bottom: 40px;
+  br {
+    display: none;
+  }
+}
+.application_btn {
+  width: 520px;
+  height: 72px;
+  margin-left: auto;
+  background-color: $black;
+  @include flex($justifyContent: center);
+}
+.comming_soon {
+  padding-top: 6px;
+  width: 260px;
+}
+.application_period {
+  margin-top: 28px;
+  @include flex($justifyContent: flex-end, $alignItems: baseline);
+  &_text {
+    padding-right: 20px;
+    font-size: 2rem;
+  }
+  &_date {
+    font-family: $PT-sans;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 4.4rem;
+    span {
+      font-family: $noto-sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.6rem;
+    }
+  }
+}
+
+.scroll_down {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+.next {
+  margin-right: 24px;
+  margin-top: 16px;
+  color: $dim-gray;
+  text-align: right;
+  // display: block;
+  &_event {
+    font-family: 'Noto Sans JP';
+    font-weight: $weight-bold;
+    font-style: italic;
+    font-size: 2.4rem;
+    display: inline;
+    vertical-align: middle;
+    text-decoration: none;
+    color: $dim-gray;
+    &:hover {
+      color: $gray;
+    }
+  }
+
+  &_arrow {
+    transition: 0.3s $ease-out-1;
+    transform: translateX(0);
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline;
+    height: 18px;
+    vertical-align: middle;
+  }
+
+  &_event:hover + &_arrow {
+    transform: translateX(8px);
+  }
+}
+
+.scroll_down_svg {
+  @include absolute(0, 0, 0, 0);
+  margin: auto;
+  width: 50px;
+}
+.scroll_line {
+  @include absolute($top: 64px, $left: 0, $right: 0);
+  margin: auto;
+  width: 1px;
+  height: 60px;
+  background-color: $black;
+  animation: ScrollDown 1.8s $ease-in-out-1 infinite;
+}
+
+@keyframes ScrollDown {
+  0% {
+    transform: translateY(-30px) scaleY(0);
+  }
+  50% {
+    transform: translateY(0) scaleY(1);
+  }
+  100% {
+    transform: translateY(30px) scaleY(0);
+  }
+}
+
+@media screen and (max-width: $md) {
+  .logo {
+    margin-top: 1vw;
+    width: 50%;
+    padding-bottom: 4px;
+  }
+  .catch_copy {
+    font-size: 3.6vw;
+    margin-bottom: 2vw;
+  }
+  .application_btn {
+    width: 30vw;
+    height: 5vw;
+  }
+  .comming_soon {
+    width: 18vw;
+    margin-bottom: 0.6vw;
+  }
+  .application_period {
+    margin-top: 2vw;
+    &_text {
+      padding-right: 20px;
+      font-size: 1.4vw;
+    }
+    &_date {
+      font-size: 3vw;
+    }
+  }
+  .next {
+    &_event {
+      font-size: 1.6rem;
+    }
+    &_arrow {
+      height: 12px;
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: $sm) {
+  .top_visual_box {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+  .logo {
+    max-width: 420px;
+    width: 80%;
+  }
+  .right_contents_wrapper {
+    margin-top: 32px;
+    width: 100%;
+    text-align: center;
+  }
+  .catch_copy {
+    font-size: 7vw;
+    margin-bottom: 5vw;
+    br {
+      display: none;
+    }
+  }
+  .application_btn {
+    margin: auto;
+    width: 100%;
+    height: 52px;
+  }
+  .comming_soon {
+    width: 40%;
+  }
+  .application_period {
+    margin-top: 16px;
+    &_text {
+      font-size: 1.6rem;
+    }
+    &_date {
+      font-size: 2.4rem;
+    }
+  }
+
+  .next {
+    text-align: center;
+  }
+}
