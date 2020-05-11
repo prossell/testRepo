@@ -45,7 +45,7 @@ import SecSponsors from '~/components/organisms/SecSponsors.vue'
 import SecPastEvent from '~/components/organisms/SecPastEvent.vue'
 import Footer from '~/components/organisms/Footer.vue'
 import SankaOubo from '~/components/atoms/SankaOubo.vue'
-import SecMedia from '~/components/atoms/SecMedia.vue'
+import SecMedia from '~/components/organisms/SecMedia.vue'
 
 // svgs
 import ArrowSvg from '~/assets/images/angle-right-solid.svg?inline'

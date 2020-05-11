@@ -2,8 +2,9 @@
   .media_box
     SectionTitle(:title="'Media'")          
     .SlideMedia
+
       Carousel(:navigation-enabled="true" navigation-prev-label="〈" navigation-next-label="〉" :speed="1000" v-bind:per-page-custom="[[10,1],[640,1],[780,2],[1250,3]]" pagination-color='#ffffff' pagination-active-color=$black)
-        Slide.VueCarousel-slider(v-for="(article,media_key) in mediaList" :key="`media_${media_key}`" v-if="article.pub === 'true'")
+        Slide(v-for="(article,media_key) in mediaList" :key="`media_${media_key}`" v-if="article.pub === 'true'")
           a.media(v-if="article.link" :href="article.link" target='_blank')
             img.media_pic(v-if="article.image" :src="article.image")
 
@@ -38,12 +39,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-button:focus {
-  outline: none;
-}
-.VueCarousel-navigation-button:focus {
-  outline: none;
-}
 .VueCarousel-slide {
   width: 70%;
   margin-top: 10px;
@@ -61,6 +56,9 @@ button:focus {
 
 .media_pic {
   width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .media {
@@ -89,10 +87,7 @@ button:focus {
     box-shadow: 0 4px 16px rgba($black, 0.1);
     color: $black;
   }
-  &_pic {
-    flex-shrink: 0;
-    width: 100%;
-  }
+
   &_div {
     display: flex;
     justify-content: center;
@@ -101,18 +96,6 @@ button:focus {
     width: 100%;
     align-items: center;
 
-    &_kind {
-      // border-radius: 5px 5px 5px 5px;
-
-      flex-shrink: 0;
-
-      background: $black;
-      color: white;
-      width: 64px;
-      padding: auto;
-      margin-right: 12px;
-      height: 25px;
-    }
     &_title {
       width: 90%;
       text-align: left;
@@ -125,17 +108,6 @@ button:focus {
       -webkit-line-clamp: 2;
       overflow: hidden;
       font-size: 1.4rem;
-    }
-    &_auther {
-      position: absolute;
-      top: 0%;
-      right: 0%;
-    }
-    &_from {
-      font-size: 12px;
-      color: gray;
-      text-align: right;
-      width: 100%;
     }
   }
 }
